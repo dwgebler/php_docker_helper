@@ -1,6 +1,6 @@
 # PHP Docker helper for Unix/Linux
 
-This repo contains a couple of simple bash scripts to immediately spin up a PHP Apache environment in your current working directory, using the PHP version of your choice. 
+This repo contains a couple of simple bash scripts to immediately spin up a PHP Apache environment in your current working directory, using the PHP version of your choice, with XDebug and SSL enabled.
 
 The container will be exposed on http://localhost:8080 and https://localhost:4430
 
@@ -45,5 +45,7 @@ To stop the container, run `php_stop` from your working directory.
 Run `php_stop rm` to also delete the container.
 
 Run `php_rmi` to stop the container, delete it and delete the image so it will be rebuilt next time you run.
+
+XDebug is enabled using a reasonable default configuration. Just add the usual `?XDEBUG_SESSION_START=PHPSTORM` or `XDEBUG_SESSION` cookie and debug as normal.
 
 That's it! Hope you find this useful.
