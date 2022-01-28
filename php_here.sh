@@ -23,7 +23,7 @@ php_here()
 
 php_stop()
 {
-	printf "Stopping PHP container...\n"
+    printf "Stopping PHP container...\n"
     docker stop php-apache
     if [ -n "$1" ] && [[ $1 == "rm" ]]
     then
