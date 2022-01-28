@@ -2,7 +2,7 @@
 
 This repo contains a couple of simple bash scripts to immediately spin up a PHP Apache environment in your current working directory, using the PHP version of your choice. 
 
-The container will be exposed on http://localhost:8000 and https://localhost:4430
+The container will be exposed on http://localhost:8080 and https://localhost:4430
 
 ## Installation
 
@@ -34,7 +34,7 @@ Create a new directory wherever you like and add a simple test PHP script:
 
 In that directory, run the command `php_here` from your shell. This will launch a container on localhost.
 
-Visit http://localhost:8000 in your browser, or https://localhost:4430 (and add the `ca.crt` generated in the `certs` to your system trust store to avoid browser warnings).
+Visit http://localhost:8080 in your browser, or https://localhost:4430 (and add the `ca.crt` generated in the `certs` to your system trust store to avoid browser warnings).
 
 You will see a PHP info page for PHP 7.4.
 
