@@ -6,6 +6,8 @@ The container will be exposed on http://localhost:8080 and https://localhost:443
 
 ## Installation
 
+Install Docker (https://docs.docker.com/get-docker/)
+
 Clone the repo to a directory of your choice.
 
 Add execute permissions to the two included scripts:
